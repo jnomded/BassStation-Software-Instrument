@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="tonLMX" name="BassStationSoftwareInstrument" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn">
+  <MAINGROUP id="eqOxuC" name="BassStationSoftwareInstrument">
+    <GROUP id="{327B1DF0-A304-027A-42BB-6680E983DE00}" name="Source">
+      <FILE id="AVRFiX" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="m4nuWA" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="aPb9J3" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="UIDz0d" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="gRXWyN" name="SynthSound.cpp" compile="1" resource="0" file="Source/SynthSound.cpp"/>
+      <FILE id="NYgQkT" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+      <FILE id="JYV9Zp" name="SynthVoice.cpp" compile="1" resource="0" file="Source/SynthVoice.cpp"/>
+      <FILE id="rTdskS" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="BassStationSoftwareInstrument"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="BassStationSoftwareInstrument"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Music/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Music/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
